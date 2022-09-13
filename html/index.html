@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Ethan Kittell, UMass Lowell Computer Science, Ethan_Kittell@student.uml.edu
+What to submit: Nothing to submit as long as your editor is ready to use.
+PART 2: First Web Page
+Copyright (c) 2021 by Wenjin. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+-->
+<html lang="en">
+<head>
+    <!--This is my default set up of the head for this html file with a reference to the 
+    css file and a title for the webpage set to HW1-->
+    <meta charset="UTF-8">
+    <title>HW1 </title>
+    <link rel="stylesheet" href="file:///c:Users/Ethan%20Kittell/Desktop/HW1/css/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--page content-->
+    <!--This is the title div which just describes the contents of the webpage and provides a title-->
+    <div class="title">
+    <h1 >My Favorite European Cars!</h1>
+    <p >Hi! My name is Ethan Kittell I am a car enthusiast and on this webpage I discuss my favorite European cars.</p>
+    </div>
+    <!--hr to act as border between title and page content-->
+    <hr>
+
+    <!--This is the first car I cover on the webpage and it involves an image several paragraphs
+    a link and an h2 to act as the title-->
+    <div>
+    <h2>Saab 900/9-3 (Performance variants)</h2>
+    <!--image that has the directory specified as the image is in another folder, the image also has an alt text to stand
+    in place of the photot in case the image doesn't exist and also has a class so that css can scale the image to be smaller 
+    and better proportioned-->
+    <img src="file:///c:Users/Ethan%20Kittell/Desktop/HW1/images/saab9-3.jpg" alt="Photo of a turbo x" class="saabPhoto">
+    <p>Photo of a 2008 9-3 Turbo X</p>
+    <br>
+    <p>I am a little biased towards the Saab 9-3 as I do own one. Saab ever since world war 2
+      has made the world's safest car the Saab 9-3. It was Sweden's iconic sedan/coupe/convertible. 
+      While it had more of a luxurious daily driver status Saab did release several "performance"
+      variants of the 9-3 which held their own against Europe's extremely powerful german sports cars.
+    </p>
+    <!--Table with rows for car name, power, production number, and production years and the appropriate-->
+    <table>
+        <tr>
+          <th>Car</th>
+          <th>Power</th>
+          <th>Production Numbers</th>
+          <th>Production Years</th>
+        </tr>
+        <tr>
+          <td>SPG</td>
+          <td>160hp</td>
+          <td>Less than 1000</td>
+          <td>1984-1991</td>
+        </tr>
+        <tr>
+          <td>Viggen</td>
+          <td>230hp</td>
+          <td>About 6000</td>
+          <td>1998-2001</td>
+        </tr>
+        <tr>
+            <td>Turbo X</td>
+            <td>280hp</td>
+            <td>2000</td>
+            <td>2008-2012</td>
+          </tr>
+      </table>
+      <!--paragraph with summary of changes to the saab 9-3 over its production-->
+      <p>The Saab 900/9-3 had a very impressive boost in power over its lifespan. Increasing
+        in 120hp since 1984! The Saab 9-3 also took a very interesting turn over its Production
+        years going from being a dedicated front-wheel drive (FWD) turbo 4-cylinder car to being
+        an all-wheel drive (AWD) turbo 6-cylinder around the mid-2000s. This is very uncommon for
+        sports cars as they tend to stick to a very specific drive train with Saab originally
+        being FWD only. Their sports variants were very limited and loved which makes them
+        excellent sports cars today.
+      </p>
+      <br>
+      <!--Paragraph with a link to a wiki page for the 9-3-->
+      <p>Overall the Saab 900/9-3 had a very impressive run with their sports variants. Sadly
+        Saab as a company no longer exists but their cars are still collected and known around
+        the world. More on their history can be found 
+        <a href="https://en.wikipedia.org/wiki/Saab_9-3">here</a>.
+      </p>
+      </div>
+
+      <!--Break in between content-->
+      <br>
+
+      <!--Div for the second car and its content including 2 images a table and a link-->
+      <div>
+        <h2>BMW M3</h2>
+        <!--Picture including the directory with the image in it.-->
+        <img src="file:///c:Users/Ethan%20Kittell/Desktop/HW1/images/m3.jpg" alt="Photo of a 2015 M3" class="m4Photo">
+        <p>Photo of a 2015 M3</p>
+        <br>
+        <p>The m3 has always been the golden standard of a sports car in Europe. BMW made
+          this car not only handle extremely well with its perfectly engineered 50:50 weight
+          distributed chassis but they also made it fast. Every year BMW sought to increase the 
+          power on this car's 6 cylinder engine. BMW even introduced for a limited time in 2007
+          a V8 model of the m3 which was regarded as one of the best V8s ever made by many 
+          automotive journalists.
+        </p>
+        <!--table comparing all M3 cars and their model, power, production numbers, and production years-->
+        <table>
+            <tr>
+              <th>Car</th>
+              <th>Power</th>
+              <th>Production Numbers</th>
+              <th>Production Years</th>
+            </tr>
+            <tr>
+              <td>E30</td>
+              <td>238hp</td>
+              <td>18,000</td>
+              <td>1986-1991</td>
+            </tr>
+            <tr>
+              <td>E36</td>
+              <td>270hp</td>
+              <td>71,000</td>
+              <td>1992-1999</td>
+            </tr>
+            <tr>
+              <td>E46</td>
+              <td>330hp</td>
+              <td>86,000</td>
+              <td>2000-2006</td>
+            </tr>
+            <tr>
+              <td>E90</td>
+              <td>420hp</td>
+              <td>66,000</td>
+              <td>2007-2013</td>
+            </tr>
+            <tr>
+              <td>F80</td>
+              <td>425hp</td>
+              <td>111,000</td>
+              <td>2014-2020</td>
+            </tr>
+            <tr>
+              <td>G80</td>
+              <td>480hp</td>
+              <td>unknown</td>
+              <td>2020-present</td>
+            </tr>
+          </table>
+          <br>
+          <!--Image with a visual representation of the table above containing all M3's-->
+          <img src="file:///c:Users/Ethan%20Kittell/Desktop/HW1/images/m3chart.jpg" alt="chart of all m3s" class="m3Photo">
+          <br>
+          <!--Paragraph with M3 car summary and link to wiki for more content/history on the BMW M3-->
+          <p>The BMW m3 made a very impressive power increase throughout its lifespan. Going from 238hp to
+            480hp this car every year offered a huge power increase (disregarding the F80). In 2014 BMW
+            opted for a twin-turbo 6 cylinder to keep power above 400hp and still maintain a lighter
+            6-cylinder engine. The older BMWs are some of the most sought-after cars in the automotive
+            world and their newer cars are always certified classics. More history of BMW's M3 models
+            can be found <a href="https://en.wikipedia.org/wiki/BMW_M3">here</a>. 
+          </p>
+          </div>
+
+          <br>
+
+          <div>
+            <h2>Volkswagen GTI</h2>
+            <!--Picture of a GTI and path to the image within the images directory-->
+            <img src="file:///c:Users/Ethan%20Kittell/Desktop/HW1/images/GTI.jpg" alt="Photo of a mk4 GTI" class="gtiPhoto">
+            <p>Photo of a 2001 GTI</p>
+            <br>
+            <!--Break and paragraph of content for the GTI-->
+            <p>The GTI in the 80s was the pioneer of being a people's sports car.
+              Before the GTI if you wanted a performance car you either bought a supercar or you
+              bought a 2 door coupe with a massive engine. But Volkswagen created this "hot hatch"
+              to be a light and affordable option for someone who wants a sports car. Throughout the years 
+              the GTI was never known for its amazing performance but more for its iconic styling and feel.
+            </p>
+            <br>
+            <p>The following table will not feature a "Production Numbers" collumn as it is not a limited production car.</p>
+            <!--Table for the car, the power, and the production year.-->
+            <table>
+                <tr>
+                  <th>Car</th>
+                  <th>Power</th>
+                  <th>Production Years</th>
+                </tr>
+                <tr>
+                  <td>MK1</td>
+                  <td>108hp</td>
+                  <td>1976-1984</td>
+                </tr>
+                <tr>
+                  <td>MK2</td>
+                  <td>127hp</td>
+                  <td>1987-1992</td>
+                </tr>
+                <tr>
+                  <td>MK3</td>
+                  <td>148hp</td>
+                  <td>1993-1997</td>
+                </tr>
+                <tr>
+                  <td>MK4</td>
+                  <td>180hp</td>
+                  <td>1999-2006</td>
+                </tr>
+                <tr>
+                  <td>MK5/Mk6</td>
+                  <td>200hp</td>
+                  <td>2007-2014</td>
+                </tr>
+                <tr>
+                  <td>MK7</td>
+                  <td>230hp</td>
+                  <td>2014-2020</td>
+                </tr>
+              </table>
+              
+              <p>The GTI is still being made today with its first models being introduced almost 
+                50 years ago. While its horsepower numbers aren't very high they still make excellent
+                daily drivable sports cars that won't break the bank. GTIs have always kept a clean
+                FWD hatchback design that keeps on being improved. While they aren't particularly rare 
+                some collectors will pay high prices for earlier models and some even end up in 
+                automotive museums.
+              </p>
+              <br>
+              <!--Paragraph with summary of the GTI content and hyperlink to more GTI wiki content-->
+              <p>The GTI has truly earned the status as the "people's car" and continues to make major
+                engineering breakthroughs with its features. More info on the GTI can be found
+                <a href="https://en.wikipedia.org/wiki/Volkswagen_Golf">here</a>.
+              </p>
+              </div>
+              <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                </a>
+            </p>
+            <p>
+              <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                  <img style="border:0;width:88px;height:31px"
+                      src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                      alt="Valid CSS!" />
+                  </a>
+              </p>
+</body>
+</html>

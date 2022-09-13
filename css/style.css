@@ -1,0 +1,85 @@
+/*
+These classes just make the photos look well proportioned and nice
+*/
+.saabPhoto {
+    width: 450px;
+    height: 250px;
+}
+
+.m4Photo {
+    width: 450px;
+    height: 300px;
+}
+
+.gtiPhoto {
+    width: 500px;
+    height: 350px;
+}
+
+.m3Photo {
+    width: 850px;
+    height: 450px;
+}
+
+/*
+Title class to target div for the title and intro content of the webpage
+puts a border with a whiteish background to make the title and intro stand
+out also curves the borders edges
+*/
+.title {
+    border:20px double;
+    background-color: aliceblue;
+    border-radius: 25px;
+    border-color: darkblue;
+}
+
+/*
+Centers all text and sets the font to arial
+*/
+* {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+Sets every table to be white and have a double border
+*/
+table, th,td {
+    border:3px double;
+    background-color: aliceblue;
+}
+
+/*
+makes the background image a picture of a racetrack
+the image is stored within the images directory and is specified
+within the url
+*/
+body {
+    background-image: url('../images/background.jpg');
+    background-color: #7284b5;
+    
+}
+
+/*
+centers all table text and makes the table content wider
+*/
+table {
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+Sets all div content for cars to have a blue rounded border
+also sets margins for the content and background color
+*/
+div {
+    border:3px outset;
+    border-color: darkblue;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    padding: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
